@@ -2,7 +2,7 @@
 
 class DayOne2023
   def initialize
-    @lines = File.read("input1.txt").split("\n")
+    @lines = File.read("../input1.txt").split("\n")
     puts part_one
     puts part_two
   end
